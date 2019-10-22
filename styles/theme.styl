@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+
+// service-type
+.st {
+    @apply uppercase text-base tracking-wide my-2 mt-6 font-bold text-pink-900 leading-tight
+}
+
+// path-forward
+.pf {
+    @apply bg-white p-8;
+}
+
+.btn {
+    @apply inline-block px-5 py-3 rounded-lg bg-indigo-500 text-sm text-white uppercase tracking-wider font-semibold; 
+}
+.btn:focus {
+    @apply outline-none shadow-outline;
+}
+
+.btn-indigo {
+    @apply bg-indigo-500 text-white;
+}
+.btn-indigo:hover {
+    @apply bg-indigo-400;
+}
+.btn-indigo:active {
+    @apply bg-indigo-600;
+}
+
+.btn-gray {
+    @apply bg-white text-sm text-brand-ice;
+}
+.btn-gray:hover {
+    @apply bg-gray-300;
+}
+.btn-gray:active {
+    @apply bg-gray-500;
+}
+
+@tailwind utilities;
